@@ -332,7 +332,7 @@ function getComponentProperty() {
     property.type = "library";
     property.name = "cmsis";
     property.isInternal = false;
-    property.isPrebuilt = true;
+    property.isPrebuilt = false;
     property.buildOptionCombos = buildOptionCombos;
 
     return property;
